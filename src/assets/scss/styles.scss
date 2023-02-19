@@ -1,0 +1,99 @@
+
+
+body{
+    background: $background-color;
+    line-height: 1;
+
+    position: absolute;
+    overflow: hidden;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    color: $text-color;
+
+    font-family: $font-stack;
+
+    h1,h2,h3,h4,h5,h6,p,a,label{
+        margin: 0;
+        padding: 0;
+
+        font-family: $font-stack;
+    }
+
+
+
+    h1{
+        font-size: $font-size * 4;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: $font-size * 3.5;
+        font-weight: 700;
+    }
+
+    h3{
+        font-size: $font-size * 3;
+        font-weight: 700;
+    }
+
+    h4{
+        font-size: $font-size * 2.5;
+        font-weight: 700;
+    }
+
+    h5{
+        font-size: $font-size * 2;
+        font-weight: 700;
+    }
+
+    h6{
+        font-size: $font-size * 1.5;
+        font-weight: 700;
+    }
+
+
+    p{
+        font-size: $font-size * 1.75;
+        font-weight: 500;
+    }
+
+    a{
+        font-size: $font-size * 1.75;
+        font-weight: 500;
+    }
+
+    label{
+        font-size: $font-size * 1.25;
+        font-weight: 600; 
+    }
+
+    input{
+        font-family: $font-stack;
+        outline: none;
+    }
+}
+
+
+
+.default-background{ background: $background-color; }
+.default-text-color{ color: $text-color; }
+
+.default-primary-background{ background: $primary-color; }
+.default-primary-text-color{ color: $primary-text-color; }
+.default-primary-border{ color: $primary-text-color; }
+
+.default-block{ background: $block-color; border: $block-border-style; border-radius: $border-radius; padding: 15px;}
+
+
+
+
+
+
